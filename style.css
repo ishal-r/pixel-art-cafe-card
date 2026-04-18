@@ -1,0 +1,54 @@
+/* Center the page */
+body {
+  margin: 0;
+  padding: 0;              /* remove that 2rem padding */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:#86816f;     /* you can also set this to a different color or even remove it */
+}
+
+
+/* The widget container: fixed “cute” size, with background image */
+.widget {
+  position: relative;
+
+  /* Make it much larger: */
+  width: 680px;     /* ↑ increase from 280px */
+  height: 680px;    /* ↑ increase from 360px to keep roughly the same aspect */
+
+  /* Stretch the background image to fill the box */
+  background: url('shop2.png') center/100% 100% no-repeat;
+  /* OR if you want to keep its aspect ratio: */
+  /* background: url('background.png') center/contain no-repeat; */
+  pointer-events: none;
+  border: none;
+  border-radius: 0px;
+}
+
+.btn {
+  position: absolute;
+  cursor: pointer;
+  pointer-events: auto;
+  padding: 0;              /* no extra hit area from padding */
+  margin: 0;               /* no extra hit area from margin */
+  display: block;
+  transition: transform .2s;
+}
+.btn:hover { transform: scale(1.3); }
+
+#btnBack {
+  left: -110px;
+  width: 180px;
+  height: 180px;
+}
+#btnBack:hover { opacity: 1; }
+
+/* Individual button placement & sizing */
+#btn1 { top: 224px; left: 546px; width: 150px; height: 150px; }
+#btn2 { top: 480.5px; left: 441.55px; width: 24px; height: 24px; }
+#btn3 { top: 487.5px; left: 506.5px; width: 25px; height: 25px; }
+#btn4 { top: 509.9px; left: 538.4px; width: 26px; height: 26px; }
+#btn5 { top: 480px; left: 572px; width: 24.5px; height: 24.5px; }
+#btn6 { top: 492px; left: 645px; width: 24.5px; height: 24.5px; }

@@ -84,7 +84,7 @@ All artwork is original — drawn by me in Piskel, with visual inspiration from 
 
 ## Contact
 
-**[Your Name]**
+**[Ishal Rahat]**
 - [GitHub](https://github.com/ishal-r)
-- [LinkedIn](https://linkedin.com/in/your-linkedin)
-- your.email@example.com
+- [LinkedIn](https://www.linkedin.com/in/ishal-rahat-ba9b5830b/)
+- ishalrahat15@gmail.com
